@@ -10,6 +10,7 @@ data:
     <title>Welcome to nginx!</title>
     </head>
     <body>
+    <p>Environment: prod02</p>
     <p>v1.16.1</p>
     <img style="margin: 0 0;" width="70%" height="70%" src="welcome.png" alt="Welcome to Red Hat Advanced Cluster Management">
     <div style="margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-serif;">
