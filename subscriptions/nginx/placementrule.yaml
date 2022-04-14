@@ -15,7 +15,7 @@ spec:
   clusterSelector:
     matchLabels:
       cluster-environment: prod01
-  #clusterReplicas: 1  #Apply to how many matched clusters, default is ALL
+  clusterReplicas: 2  #Apply to how many matched clusters, default is ALL
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
@@ -33,4 +33,4 @@ spec:
   clusterSelector:
     matchLabels:
       cluster-environment: prod02
-  #clusterReplicas: 1  #Apply to how many matched clusters, default is ALL
+  clusterReplicas: 2  #Apply to how many matched clusters, default is ALL
